@@ -2,8 +2,8 @@
  * @namespace Chart.helpers
  */
 
-import type {AnyObject} from '../../types/basic';
-import type {ActiveDataPoint, ChartEvent} from '../../types';
+import {AnyObject} from '../../types/basic';
+import {ActiveDataPoint, ChartEvent} from '../../types';
 
 /**
  * An empty function that can be used, for example, for optional callback.

@@ -1,6 +1,6 @@
-import type { AnyObject } from '../../types/basic';
-import type { Point } from '../../types/geometric';
-import type { Animation } from '../../types/animation';
+import { AnyObject } from '../../types/basic';
+import { Point } from '../../types/geometric';
+import { Animation } from '../../types/animation';
 export default class Element<T extends AnyObject = AnyObject, O extends AnyObject = AnyObject> {
     static defaults: {};
     static defaultRoutes: any;

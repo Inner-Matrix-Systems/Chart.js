@@ -4,8 +4,8 @@
  * @private
  */
 
-import type {AnyObject} from '../../types/basic';
-import type {ChartOptions} from '../../types';
+import {AnyObject} from '../../types/basic';
+import {ChartOptions} from '../../types';
 
 export type TimeUnit = 'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year';
 
